@@ -1,2 +1,2 @@
-#Test link file
-[View Documentation](SRS_DatBanOnline.md)
+#Test link file\
+[SRS Đặt bàn](SRS_DatBanOnline.md)
