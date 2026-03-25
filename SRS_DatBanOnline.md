@@ -71,10 +71,10 @@ Tài liệu này mô tả các yêu cầu phần mềm (SRS) cho ứng dụng di
 
 | Thành phần | Mô tả |
 |------------|-------|
-| Nền tảng | iOS 13+ và Android 8.0+ |
+| Nền tảng | iOS và Android |
 | Kết nối | Internet (WiFi / 4G/5G) |
-| Công nghệ | React Native hoặc Flutter |
-| Backend | REST API / Firebase |
+| Công nghệ | React Native |
+| Backend | MoongDB |
 | Thanh toán | VNPay / Momo / Stripe |
 | Thông báo | Firebase Cloud Messaging (FCM) |
 
