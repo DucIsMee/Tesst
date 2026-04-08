@@ -45,14 +45,14 @@ Dự án môn học xây dựng một website đặt bàn online sử dụng PHP
 
 | Thành phần      | Công nghệ | Lý do lựa chọn |
 | --------------- | --------- | -------------- |
-| **Ngôn ngữ**    | PHP 8.x (thuần) | Dễ triển khai, cú pháp trực quan, giúp sinh viên nắm vững kiến thức cốt lõi về backend, session và luồng xử lý web động trước khi học Framework. |
-| **Database**    | MariaDB 10.4 | Hệ quản trị cơ sở dữ liệu quan hệ mạnh mẽ, mã nguồn mở, tích hợp sẵn trong XAMPP, truy vấn SQL chuẩn và tối ưu tốt với PHP. |
+| **Ngôn ngữ**    | PHP 8.x | Dễ triển khai, cú pháp trực quan, giúp sinh viên nắm vững kiến thức cốt lõi. |
+| **Database**    | MySQL | Hệ quản trị cơ sở dữ liệu quan hệ mạnh mẽ, truy vấn SQL chuẩn và tối ưu tốt với PHP. |
 | **Web Server**  | Apache (XAMPP) | Môi trường phát triển cục bộ trọn gói, dễ cài đặt và chạy ngay trên Windows mà không cần tự cấu hình các service rời rạc. |
-| **Frontend**    | HTML5, JS, Bootstrap 5 | Chuẩn web hiện đại kết hợp framework CSS phổ biến, hỗ trợ dàn trang (Grid/Flexbox) và responsive UI trên di động nhanh chóng. |
+| **Frontend**    | HTML5, JS, Tailwind CSS | Chuẩn web hiện đại kết hợp framework CSS phổ biến, hỗ trợ dàn trang (Grid/Flexbox) và responsive UI trên di động nhanh chóng. |
 | **Font & Icon** | Montserrat, FontAwesome | Phông chữ hiện đại cùng bộ icon đầy đủ giúp giao diện trở nên chuyên nghiệp, thân thiện và tạo trải nghiệm người dùng tốt hơn. |
 | **Thanh toán**  | VNPAY (IPN) | API thanh toán uy tín và sát thực tế, giúp làm quen với luồng thanh toán bảo mật, webhook xác thực giao dịch chuẩn e-Commerce. |
 | **Email**       | PHPMailer (SMTP) | Thư viện gửi email ổn định qua Mail Server thực tế (Gmail SMTP), khắc phục hoàn toàn những giới hạn của hàm `mail()` mặc định trên localhost. |
-| **Thư viện JS** | BaguetteBox, Vanilla Zoom | Các thư viện thao tác DOM bằng Vanilla JS (không phụ thuộc jQuery), gọn nhẹ, mượt mà, chuyên dùng để hiện thực hiệu ứng xem chi tiết ảnh (zoom/lightbox). |
+| **Thư viện JS** |  |  |
 
 ---
 
@@ -159,7 +159,7 @@ WEB-PHP/
 ---
 
 ## 🗄 Cơ sở dữ liệu
-<!-- Này -->
+<!-- Này tự làm đi em -->
 **Database**: `giaythethao2` · **Engine**: InnoDB · **Charset**: UTF-8
 
 ### Sơ đồ các bảng
@@ -247,7 +247,7 @@ WEB-PHP/
 
 | Chức năng | Mô tả |
 |---|---|
-| **Trang chủ** | Banner quảng cáo, danh sách các loại bàn,  |
+| **Trang chủ** | Banner quảng cáo, danh sách các loại bàn. |
 | **Cửa hàng** | Xem danh sách sản phẩm dạng grid, phân trang, lọc theo danh mục |
 | **Chi tiết SP** | Xem ảnh sản phẩm (zoom), mô tả, giá gốc/giá khuyến mãi |
 | **Tìm kiếm** | Thanh tìm kiếm sản phẩm theo từ khóa |
@@ -287,7 +287,6 @@ WEB-PHP/
 <!-- Tự làm luôn -->
 1. **Clone hoặc tải source code** vào thư mục `htdocs` của XAMPP:
    ```bash
-   cd C:\xampp\htdocs
    git clone https://github.com/Ennela/Web-PHP.git WEB-PHP
    ```
 
