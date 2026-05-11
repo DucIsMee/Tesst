@@ -26,8 +26,7 @@ Tài liệu này hướng dẫn các thành viên trong nhóm cách thiết lậ
 | Họ và tên | MSSV | Vai trò / Phần phụ trách |
 |-----------|------|--------------------------|
 | Nguyễn Thị Tố Đạt | 23810310... | Trưởng nhóm, Backend |
-| *(Thêm thành viên)* | | |
-| *(Thêm thành viên)* | | |
+| Bùi Minh Đức | 23810310110 | Frontend |
 
 ---
 
@@ -39,7 +38,7 @@ Trước khi bắt đầu, hãy đảm bảo máy bạn đã cài đặt đầy 
 |---------|---------------------|---------|
 | PHP | >= 8.1 | Cần extension: mbstring, pdo_mysql, openssl |
 | Composer | >= 2.x | Quản lý package PHP |
-| Node.js | >= 18.x | Kèm npm hoặc yarn |
+| Node.js | >= 18.x | Kèm npm |
 | MySQL | >= 8.0 | Hoặc dùng XAMPP |
 | Git | >= 2.x | |
 
@@ -324,20 +323,3 @@ Vui lòng dùng **GitHub Issues** để báo lỗi hoặc đề xuất:
 - PHP: 8.2
 - Browser: Chrome 124
 ```
-
----
-
-## 📞 Liên hệ
-
-Nếu có thắc mắc hoặc cần hỗ trợ khi contribute, liên hệ qua:
-
-| Kênh | Thông tin |
-|------|-----------|
-| GitHub Issues | Đặt câu hỏi tại tab Issues của repo |
-| Nhóm Zalo | *(Thêm link nhóm)* |
-| Email | *(Thêm email nhóm trưởng)* |
-
----
-
-> **Lưu ý:** Tài liệu này có thể được cập nhật trong quá trình phát triển dự án.  
-> Các thành viên vui lòng đọc lại khi có thông báo thay đổi.
